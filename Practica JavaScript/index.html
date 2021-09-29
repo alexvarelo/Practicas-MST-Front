@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Practica Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <div class="main-header">
+            <img id="logo-page" onclick="funcionalidadlogo(event)" class="logo" src="camara.png" height="50" width="50">
+            <nav>
+                <div class="main-nav">
+                    <div id="main-nav__content">
+                        <span class="pages" onclick="funcionalidadhome(event)">View Home</span>
+                        <span class="pages" onclick="addContent()">View List</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <br>
+
+    <section id="landing" class="main-landing">
+        <div class="main-landing__intro">
+            <h1 class="title">Ricky y morty</h1>
+            <p class="subtitle">A new Era</p>
+            <div class="main-landing__abstract">
+                <h5>En esta pagina se tendra acceso a todos los personajes de la serie de rick y morty, con sus caracteristicas</h5>
+            </div>
+        </div>
+        <div class="landing-list">
+            <div class="landing-list__contenido"></div>
+            <div class="landing-list__detail"></div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer-kollect">
+        <div>
+            <p class="footer-text">Legal warning</p>
+            <p class="footer-text">Privacy Policy</p>
+            <p class="footer-text">Cookies Policy</p>
+            <p class="footer-text">Quality Policy</p>
+        </div>
+
+        <div>
+            <img class="footer-icon" onclick="funcionalidadtw(event)" src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" />
+            <img class="footer-icon" onclick="funcionalidadig(event)"src="https://img.icons8.com/glyph-neue/64/000000/instagram-new.png" />
+            <img class="footer-icon" onclick="funcionalidadface(event)" src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png" />
+
+        </div>
+
+        <div>
+            <p class="footer-text">Kollect</p>
+            <p class="footer-text">Blog</p>
+            <p class="footer-text">Contact</p>
+            <p class="footer-text">Faqs</p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="index.js"></script>
+<script src="details.js"></script>
+<script src="info.js"></script>
+<script src="list.js"></script>
+
+</html>

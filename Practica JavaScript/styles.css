@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Poppins&display=swap');
+
+
+.title {
+    font-family: 'Inconsolata', monospace;
+    font-size:40px;
+}
+.main-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.pages{
+    font-size: 20px;
+    line-height: 3.14286;
+    font-weight: 20;
+    letter-spacing: -.01em;
+    padding:2px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pages:hover {
+    background-color: beige;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.main-landing {
+    text-align: center;
+}
+
+.footer-kollect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: mistyrose;
+}
+
+.landing-list__contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.landing-list__rickymorty {
+    border: solid;
+    border-width: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.landing-list__rickymorty:hover {
+    background-color: beige;
+}
+
+.footer-icon {
+    cursor: pointer;
+}
+
