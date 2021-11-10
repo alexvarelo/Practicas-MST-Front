@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+$primary-font:'Poppins', sans-serif;
+
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    background-color:thistle;
+    width: 100%;
+    z-index:9;
+    left:0;
+    top:0;
+    position: fixed;
+}
+
+.pages{
+    position:relative;
+    font-family: $primary-font;
+    font-size: 15px;
+    border:solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin:10px;
+    padding:5px;
+}

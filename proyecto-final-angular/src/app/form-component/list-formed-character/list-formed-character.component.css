@@ -1,0 +1,20 @@
+.main-content {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card {
+  border-color: darkgrey;
+  border-width: 1px;
+  border-radius: 13px;
+  border-style: solid;
+  margin: 8px;
+  padding: 4px;
+}
+/*# sourceMappingURL=list-formed-character.component.css.map */

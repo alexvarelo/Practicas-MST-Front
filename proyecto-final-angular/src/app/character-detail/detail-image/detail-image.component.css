@@ -1,0 +1,10 @@
+.detail-image {
+  height: 300px;
+  cursor: pointer;
+}
+
+.detail-image:hover {
+  border-radius: 200px;
+  border-style: solid;
+}
+/*# sourceMappingURL=detail-image.component.css.map */

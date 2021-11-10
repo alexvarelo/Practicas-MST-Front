@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,gBAAgB,EAAC,KAAK;EACtB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;CAO1B;;AAVD,AAKI,gBALY,CAKV,EAAE,AAAA,UAAW,CAAA,CAAC,EAAC;EACb,WAAW,EAAE,GAAG;EAChB,gBAAgB,EAAC,SAAS;CAE7B",
+    "sources": [
+        "detail-features.component.scss"
+    ],
+    "names": [],
+    "file": "detail-features.component.css"
+}

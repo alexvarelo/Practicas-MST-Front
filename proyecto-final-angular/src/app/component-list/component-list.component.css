@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Poppins&display=swap");
+.main-content {
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.main-content__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: aliceblue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content__buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.list-component_button {
+  border-color: azure;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-component_button:hover {
+  background-color: lightblue;
+}
+
+.main-content__head {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-content__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.main-content__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+}
+
+@media (min-width: 768px) {
+  .main-content__title {
+    font-size: 25px;
+  }
+}
+
+.main-content__subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .main-content__subtitle {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=component-list.component.css.map */

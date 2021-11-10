@@ -1,0 +1,19 @@
+<div class="main-content">
+
+    <div class="main-content__head">
+        <h1 class="main-content__title">Personajes de Ricky y Morty</h1>
+        <h2 class="main-content__subtitle">Página {{actual_page}}</h2>
+    </div>
+    <div class="main-content__list" *ngIf="CharacterResponseInterface.results">
+        <div *ngFor="let character of CharacterList">
+            <app-card-list [parentToChild]='character'></app-card-list>
+        </div>
+    </div>
+
+    <div class="main-content__buttons">
+        <button class="list-component_button" *ngIf="CharacterResponseInterface.info.prev" (click)="back()">Previous
+            Page</button>
+        <button class="list-component_button" *ngIf="CharacterResponseInterface.info.next" (click)="next()">Next
+            Page</button>
+    </div>
+</div>

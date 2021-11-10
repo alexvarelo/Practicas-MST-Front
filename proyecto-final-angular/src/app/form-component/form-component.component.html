@@ -1,0 +1,54 @@
+<div class="form-content">
+    <h1>FORM: Crea un personaje en primicia!</h1>
+    <!-- formGroup es el nombre de nuestro formFroup del .ts -->
+    <form novalidate (ngSubmit)="onSubmit()" [formGroup]="userForm">
+        <!-- Fieldset del primer campo - name -->
+        <fieldset>
+            <label for="name">Nombre</label>
+            <hr>
+            <input type="text" id="name" formControlName="name" />
+            <div *ngIf="!userForm.get('name').valid &&
+            (userForm.get('name').dirty)">
+                El campo nombre no es válido
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="image">Dirección de la imagen</label>
+            <hr>
+            <input type="text" id="image" formControlName="image" />
+            <div *ngIf="!userForm.get('image').valid &&
+            (userForm.get('image').dirty)">
+                El campo imagen no es válido
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="species">Especie del personaje</label>
+            <hr>
+            <input type="text" id="species" formControlName="species" />
+            <div *ngif="!userForm.get('species').valid &&
+            (userForm.get('species').dirty)">El campo especie no es válido
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="status">Estado del personaje</label>
+            <hr>
+            <input type="text" id="status" formControlName="status" />
+            <div *ngif="!userForm.get('status').valid &&
+            (userForm.get('status').dirty)">El campo estado no es válido
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="id">Id del personaje</label>
+            <hr>
+            <input type="text" id="id" formControlName="id" />
+            <div *ngif="!userForm.get('id').valid &&
+            (userForm.get('id').dirty)">El campo estado no es válido
+            </div>
+        </fieldset>
+
+        <hr>
+        <!-- Botón deshabilitado hasta que el formulario sea valid -->
+        <button type="submit" [disabled]="!userForm.valid">Submit</button>
+        <div *ngif="submited">El personaje se ha creado correctamente</div>
+    </form>
+</div>

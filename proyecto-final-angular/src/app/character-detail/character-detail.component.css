@@ -1,0 +1,11 @@
+.detail-component {
+  padding-top: 90px;
+  text-align: center;
+  background: #00f1f6;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 241, 246, 0.762809)), color-stop(35%, #8dbec4), to(rgba(0, 111, 134, 0.477095)));
+  background: linear-gradient(90deg, rgba(0, 241, 246, 0.762809) 0%, #8dbec4 35%, rgba(0, 111, 134, 0.477095) 100%);
+}
+/*# sourceMappingURL=character-detail.component.css.map */

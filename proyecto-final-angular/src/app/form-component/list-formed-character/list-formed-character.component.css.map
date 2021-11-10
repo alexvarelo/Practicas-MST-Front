@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,WAAW,EAAC,IAAI;EAChB,OAAO,EAAC,IAAI;EACZ,cAAc,EAAE,GAAG;CACtB;;AAED,AAAA,KAAK,CAAC;EACF,YAAY,EAAE,QAAQ;EACtB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,KAAK;EACnB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "list-formed-character.component.scss"
+    ],
+    "names": [],
+    "file": "list-formed-character.component.css"
+}

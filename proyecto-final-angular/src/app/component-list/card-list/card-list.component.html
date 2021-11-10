@@ -1,0 +1,6 @@
+<a [routerLink]="['/character/' + character.id]">
+    <div class="card">
+        <h4>{{ character.id }} - {{ character.name }}</h4>
+        <img class="card__image" [src]="character.image" [alt]="character.name">
+    </div>
+</a>

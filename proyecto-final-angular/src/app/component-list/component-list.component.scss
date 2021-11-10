@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Poppins&display=swap");
+
+$primary-font: "Poppins", sans-serif;
+
+$tablet: 768px;
+$desktop: 1025px;
+$wide: 1280px;
+
+.main-content {
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.main-content__list {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content__buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list-component_button {
+    border-color: azure;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.list-component_button:hover {
+    background-color: lightblue;
+}
+
+.main-content__head {
+    text-align: center;
+    @media (min-width: $tablet) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.main-content__title {
+    font: {
+        family: $primary-font;
+        size: 23px;
+    }
+    @media (min-width: $tablet) {
+        font-size: 25px;
+    }
+}
+
+.main-content__subtitle {
+    font: {
+        family: $primary-font;
+        size: 12px;
+    }
+    @media (min-width: $tablet) {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+}

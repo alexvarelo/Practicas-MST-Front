@@ -1,0 +1,14 @@
+.main-content{
+    padding-top:60px;
+    display:flex;
+    flex-direction: row;
+}
+
+.card {
+    border-color: darkgrey;
+    border-width: 1px;
+    border-radius: 13px;
+    border-style: solid;
+    margin: 8px;
+    padding: 4px;
+}

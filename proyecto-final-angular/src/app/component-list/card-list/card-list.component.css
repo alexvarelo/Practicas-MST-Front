@@ -1,0 +1,20 @@
+.card {
+  border-color: darkgrey;
+  border-width: 1px;
+  border-radius: 13px;
+  border-style: solid;
+  margin: 8px;
+  padding: 4px;
+}
+
+.card__image {
+  height: 250px;
+  border-radius: 13px;
+}
+
+@media (min-width: 768px) {
+  .card__image {
+    height: 100px;
+  }
+}
+/*# sourceMappingURL=card-list.component.css.map */

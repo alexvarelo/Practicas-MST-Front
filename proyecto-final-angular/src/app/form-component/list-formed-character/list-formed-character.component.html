@@ -1,0 +1,13 @@
+<div class="main-content">
+    <div *ngFor="let character of formed_characters">
+        <a [routerLink]="['/character/' + character.id]">
+            <div class="card">
+                <h3>{{character.id}}</h3>
+                <h3>{{character.name}}</h3>
+                <img src="{{character.image}}">
+            </div>
+        </a>
+    </div>
+</div>
+
+

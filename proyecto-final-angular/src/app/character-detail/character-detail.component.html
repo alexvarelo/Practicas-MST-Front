@@ -1,0 +1,7 @@
+<div class="detail-component">
+    <app-detail-name class="detail-head" [parentToChild]='[character_detailed.id, character_detailed.name]'>
+    </app-detail-name>
+    <app-detail-image [parentToChild]='character_detailed.image'></app-detail-image>
+    <app-detail-features [parentToChild]='[character_detailed.status, character_detailed.species]'>
+    </app-detail-features>
+</div>

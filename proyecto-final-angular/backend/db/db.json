@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "name": "prueba",
+      "id": "4000",
+      "status": "alive",
+      "species": "human",
+      "image": ""
+    },
+    {
+      "id": "jj",
+      "name": "aedjdj",
+      "image": "djdjdj",
+      "status": "jfjdjfj",
+      "species": "jjcfjfj"
+    },
+    {
+      "id": "3",
+      "name": "Alejandro",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "status": "Vivo",
+      "species": "Humano"
+    },
+    {
+      "id": "399",
+      "name": "Alex",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "status": "malo",
+      "species": "alien"
+    }
+  ]
+}
