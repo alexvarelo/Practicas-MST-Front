@@ -1,0 +1,43 @@
+.main-list{
+    border: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top:10px;
+}
+
+.main-list__card{
+    margin-left:20px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.main-list__textcompleted{
+    color: green;
+}
+
+
+.icons{
+    align-items: flex-end;
+}
+
+.prueba {
+    background-color: brown;
+    height: 10px;
+}
+
+.separator {
+    height: 0.1px;
+    background-color: black;
+    margin: 20px 25px;
+}
+
+.main-list__separator {
+    width:80%;
+    size: 2px;
+    background-color: black;
+}
